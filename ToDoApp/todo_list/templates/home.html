@@ -12,9 +12,16 @@
 	{% endif %}
 
 {% if all_items %}
+	<table class="table table-bordered">
 	{% for things in all_items %}
-		{{ things.item }} | {{ things.completed }}
+			<tr>
+				<td>{{ things.item }}</td>
+				<td><center>{{ things.completed }}</center></td>
+				<td><center>Delete</center></td>
+			</tr>
 	{% endfor %}
+	</table>
+
 {% endif %}
 
 {% endblock %}

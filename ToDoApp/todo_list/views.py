@@ -14,9 +14,9 @@ def home(request):
 			messages.success(request, ('Item has been added to list!'))
 			return render(request, 'home.html', {'all_items': all_items})
 
-	else:
-		all_items = List.objects.all
-		return render(request, 'home.html', {'all_items': all_items})
+	# else:
+	all_items = List.objects.all
+	return render(request, 'home.html', {'all_items': all_items})
 
 def delete(request, list_id):
 	item = List.objects.get(pk=list_id)

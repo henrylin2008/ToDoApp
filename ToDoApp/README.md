@@ -9,6 +9,7 @@ To-Do List app allows user to create a list of items to be completed, user can p
 * Modify
 * Delete 
 * Checkoff/Cross-out
+* Uncheck
 
 ## Installations for Mac
 
@@ -22,4 +23,4 @@ To-Do List app allows user to create a list of items to be completed, user can p
 1. Run the project: `python manage.py runserver`
 
 ## Run on localhost: 
-python manage
+1. run on any browser: http://127.0.0.1:8000/

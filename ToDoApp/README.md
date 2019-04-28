@@ -22,5 +22,5 @@ To-Do List app allows user to create a list of items to be completed, user can p
 1. Locate the directory of this project: `cd ToDoApp`; ToDoApp: location of the project folder
 1. Run the project: `python manage.py runserver`
 
-## Run on localhost: 
-1. run on any browser: http://127.0.0.1:8000/
+## Run the Program: 
+1. run on locahost and open in any browser: http://127.0.0.1:8000/

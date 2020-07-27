@@ -11,6 +11,11 @@ To-Do List app allows user to create a list of items to be completed, user can p
 * Checkoff/Cross-out
 * Uncheck
 
+## Tech Stack 
+* Backend: Python, Django
+* Database: Sqlite
+* Frontend: HTML, CSS
+
 ## Installations for Mac
 
 1. Fork repository and clone to a local folder.
